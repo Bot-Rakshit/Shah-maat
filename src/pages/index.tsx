@@ -24,7 +24,7 @@ export default function Component() {
         <h1 className="text-4xl font-bold mb-4">Find chess tournaments, clubs, coaches, and players</h1>
         <p className="text-lg text-gray-300 mb-8">
           Shah maat is a comprehensive platform that helps you discover and connect with the chess community. Whether
-          you're a seasoned player, a budding enthusiast, or a coach looking to share your expertise, Shah maat has
+          you&apos;re a seasoned player, a budding enthusiast, or a coach looking to share your expertise, Shah maat has
           got you covered.
         </p>
         <div className="grid grid-cols-2 gap-4 mb-8">
@@ -65,7 +65,7 @@ export default function Component() {
   );
 }
 
-function GroupIcon(props) {
+function GroupIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -89,7 +89,7 @@ function GroupIcon(props) {
   );
 }
 
-function PuzzleIcon(props) {
+function PuzzleIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -108,7 +108,7 @@ function PuzzleIcon(props) {
   );
 }
 
-function SchoolIcon(props) {
+function SchoolIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -132,7 +132,7 @@ function SchoolIcon(props) {
   );
 }
 
-function TrophyIcon(props) {
+function TrophyIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -156,7 +156,7 @@ function TrophyIcon(props) {
   );
 }
 
-function UsersIcon(props) {
+function UsersIcon(props: React.SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
